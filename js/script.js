@@ -1,0 +1,70 @@
+
+$('.banner-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed:2000,
+  prevArrow: ".left",
+  nextArrow: ".right",
+  infinite:true,
+  speed:500,
+  fade:true,
+  cssEase:"linear", 
+
+
+});
+$('.service-wrapper').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: false,
+  speed: 200,
+  vertical:true,
+  verticalSwiping:true,
+  rows:0,
+  centerMode: true,
+  centerPadding: '0',
+  prevArrow: '.up-angle',
+  nextArrow: '.up-down',
+});
+$('.testi-wrapper').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: false,
+  speed: 200,
+  vertical:true,
+  asNavFor:".testi-details-wrapper",
+  // verticalSwiping:true,
+  // rows:0,
+  // centerMode: true,
+  // centerPadding: '0',
+  // prevArrow: '.up-angle',
+  // nextArrow: '.up-down',
+});
+$('.testi-details-wrapper').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: false,
+  speed: 200,
+  vertical:true,
+  arrows:false,
+  asNavFor:".testi-wrapper",
+  // verticalSwiping:true,
+  // rows:0,
+  // centerMode: true,
+  // centerPadding: '0',
+  // prevArrow: '.up-angle',
+  // nextArrow: '.up-down',
+});
+// $('..service-slide').slick({
+//   slidesToShow: 3,
+//   slidesToScroll: 1,
+//   autoplay: false,
+//   speed: 200,
+//   vertical:true,
+//   verticalSwiping:true,
+//   rows:0,
+//   centerMode: true,
+//   centerPadding: '0',
+//   prevArrow: '.up-angle',
+//   nextArrow: '.up-down',
+// });
